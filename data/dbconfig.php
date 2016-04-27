@@ -1,0 +1,12 @@
+<?php
+/**
+安装前需要配置数据库连接
+务必使目录backup、cache、files、logs目录以及文件权限设置成777或可写状态
+服务器支持Rewrite模块
+*/
+//数据库连接配置
+define('DB_HOST','localhost');//数据库地址
+define('DB_DATABASE','test');//数据库名称
+define('DB_PREFIX','cms_');//数据表前缀
+define('DB_USER','root');//数据库用户
+define('DB_PASSWORD','');//数据库密码
