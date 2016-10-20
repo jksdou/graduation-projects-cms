@@ -1,4 +1,4 @@
-//打印输出内容，原生代码，不依赖jQuery
+// 打印输出内容，原生代码，不依赖jQuery
 function printcontent()
 {
 	bdhtml = window.document.body.innerHTML;
@@ -10,7 +10,7 @@ function printcontent()
 	window.print();
 }
 
-﻿//焦点滚动图 选择器
+// 焦点滚动图 选择器
 function $a(id,tag)
 {
 var re=(id && typeof id!="string") ? id:document.getElementById(id);
@@ -18,7 +18,7 @@ if(!tag) { return re; }
 else { return re.getElementsByTagName(tag); }
 }
 
-//焦点滚动图 点击移动
+// 焦点滚动图 点击移动
 function movec()
 {
 	var o=$a("bd1lfimg","");
